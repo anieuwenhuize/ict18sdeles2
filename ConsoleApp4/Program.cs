@@ -20,7 +20,7 @@ namespace ConsoleApp4
             double gemLeeftijdBus = bus.GetGemiddeldeLeeftijd();
             double gemLeeftijdTrein = trein.GetGemiddeldeLeeftijd();
 
-            Console.WriteLine($"Gem leeftijd (7) bus: {gemLeeftijdBus}");
+            Console.WriteLine($"Gem leeftijd bus: {gemLeeftijdBus}");
             //Console.WriteLine($"Gem leeftijd (8) trein: {gemLeeftijdTrein}");
             Console.ReadLine();
         }
